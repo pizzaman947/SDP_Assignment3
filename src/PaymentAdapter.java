@@ -2,6 +2,7 @@ public class PaymentAdapter implements PaymentGateway {
     private OldPaymentSystem oldSystem;
 
     public PaymentAdapter(OldPaymentSystem oldSystem) {
+
         this.oldSystem = oldSystem;
     }
 
